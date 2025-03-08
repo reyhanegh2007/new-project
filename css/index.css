@@ -519,3 +519,44 @@ main::before {
 .color-box .fa-arrow-right {
     font-size: 15px;
 }
+
+.newsletter-content {
+    margin: 40px;
+    text-align: center;
+}
+
+.newsletter-content h2 {
+    padding: 20px 0 5px 0;
+}
+
+.newsletter-content p {
+    color: #777;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.newsletter-content input {
+    border: none;
+    border-radius: 5px;
+    color: #888;
+    background-color: #e5e5e5;
+    padding: 5px 90px 5px 8px;
+    margin: 10px 0;
+}
+
+.newsletter-content button {
+    border: none;
+    background-color: #884A39;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.newsletter-content button:hover {
+    transition: transform 0.2s ease;
+    background-color: #FFDBB5;
+    /* background 0.3s ease, */
+}
+
+.newsletter-content a {
+    color: #c38054de;
+}
